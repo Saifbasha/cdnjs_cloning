@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-seri;
+}
+body{
+    background-color: rgb(0, 0, 0,0.8);
+   
+    position: relative;
+}
+main{
+    background-color: #454647;
+}
+section{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 14vh;
+    background-color: rgb(0, 0, 0);
+}
+nav>ol{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+}
+nav ol>li>a>img{
+    width: 200px;
+    margin-left: 20px;
+}
+nav ol>li+li>a>h1>i{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+nav ol>li+li>a>h1>i:hover{
+    color: rgb(255,255,255,0.4);
+}
+nav ol>li+li+li>a>h1>i{
+    color: rgb(255,255,255);
+}
+nav ol>li+li+li>a>h1>i:hover{
+    color: rgb(255,255,255,0.4);
+}
+nav ol+ol{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}
+nav ol+ol>li{
+    margin-left: 20px;
+}
+nav ol+ol>li>a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    font-size: 25px;
+}
+nav ol+ol>li>a:hover{
+    color: rgb(255,255,255,0.4);
+}
+nav ol+ol>li:last-child a::after{
+    content: "🟢";
+}
+.text{
+    background-color: none;
+    color: rgb(255,255,255);
+    font-size:25px;
+    font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+    margin-left: 250px;
+}
+.text>input{
+    width: 900px;
+    height: 50px;
+    border-radius: 10px;
+}
+.text>input::placeholder{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align:left;
+}
+.banner{
+    height: 40px;
+    margin-top: 150px;
+    padding-left: 50px;
+    background-color: rgb(255, 123, 78);
+    padding-top: 10px;
+}
+.banner>p{
+    font-size: 20px;
+}
+.banner>p>span{
+    text-decoration: underline;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+footer .logo{
+    position: relative;
+}
+footer .logo>figure>img{
+    width: 200px;
+    margin: 30px;
+}
+footer .logo>figure+p{
+    color: rgb(255,255,255);
+    margin-left: 45px;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute;
+    top: 110px;
+}
+footer .logo>figure+p+h2>.bx{
+    position: absolute;
+    top: 110px;
+    left: 160px;
+}
+footer .logo>figure+p+h2> .bxl-github{
+    position: absolute;
+    top: 110px;
+    left: 190px
+}
+.card-1,.card-2,.card-3{
+    /* border: 2px solid white; */
+    width: 300px;
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+}
+.card-1>p{
+    color: rgb(255,255,255,0.4);
+    position: absolute;
+    left: 60px;
+    top: 30px;
+    
+}
+.card-1>ul{
+    list-style: none;
+}
+.card-1>ul{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+.card-1>ul>li>a{
+    color: rgb(255,255,255,0.8);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:lighter;
+    font-family: "Ubuntu", sans-serif;
+}
+.card-1>ul+ul{
+    position: absolute;
+    top: 130px;
+    left: 60px;
+}
+.card-2>div>p,.card-3>p{
+    color: rgb(255,255,255,0.4);
+}
+.card-2>div{
+    position: absolute;
+    top: 30px;
+    line-height: 30px;
+}
+.card-2>div+div{
+    position: absolute;
+    top: 150px;
+}
+.card-2>div>ul>li>a,.card-3>ul>li>a{
+    color: rgb(255,255,255,0.8);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:lighter;
+    font-family: "Ubuntu", sans-serif;
+}
+.card-3>ul{
+  position: absolute;
+  top: 70px;
+}
+.card-3>p{
+    position: absolute;
+    top: 30px;
+}
